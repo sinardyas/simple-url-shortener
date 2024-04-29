@@ -1,12 +1,10 @@
 import { drizzle } from "drizzle-orm/postgres-js";
 import dbConnection from "../commons/libs/db";
 
-import { schedule, station, sync } from "./schema";
+import { urls } from "./schema";
 
 const dbSchema = {
-  station,
-  schedule,
-  sync,
+  urls,
 };
 
 const db = drizzle(dbConnection, {
