@@ -1,7 +1,7 @@
 import crypto from "node:crypto";
 
 /**
- * Generate a random OTP
+ * Generate a random Id
  * @returns
  */
 const generateRandomId = (): string => {
